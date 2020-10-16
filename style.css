@@ -12,7 +12,13 @@ body {
 	margin: 0;
 }
 
-button {
+a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: inherit;
+}
+
+a {
 	position: relative;
 	overflow: hidden;
 	transition: background 200ms;
@@ -28,7 +34,7 @@ button {
 	cursor: pointer;
 }
 
-button:hover {
+a:hover {
 	box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3);
 	color: #033473;
   background-color: #fbc524;
@@ -36,7 +42,7 @@ button:hover {
   transition: .1s;
 }
 
-button:focus {
+a:focus {
 	box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3);
 }
 
